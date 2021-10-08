@@ -40,7 +40,7 @@ button.submit {
   width: 10ch;
 }
 
-button.submit:active{
+button.submit:active {
   text-decoration: underline;
 }
 
@@ -49,4 +49,60 @@ img + p {
   margin-bottom:100px;
   margin-left:1em;
   margin-right:1em;
+}
+
+section video {
+  padding: 1pc 1pc 1pc 1pc; 
+}
+
+section > form {
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  padding-left: 20Q;
+  padding-right: 20Q;
+}
+
+input ~ button {
+  max-width: 2000px;
+  min-width: 0px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+p, label {
+  color:gray;
+  position: static;
+}
+
+em {
+  position: sticky;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.one, .two, .three {
+  border-style: solid;
+  border-width: 3px;
+}
+
+.grid {
+  display: inline-grid;
+  column-gap: 10px;
+  grid-template-columns: 100px 50px 100px;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: lightcyan;
+  }
 }
