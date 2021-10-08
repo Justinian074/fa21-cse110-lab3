@@ -1,49 +1,61 @@
+/* custom */
 @font-face {
     font-family: "customFont";
     src: url("Montserrat-Regular.ttf")
 }
 
+/* heading css customization */
 h3 {
     color: #00ff00;
     background-color: hsl(30, 100%, 50%);
     margin: auto;
 }
 
+/* attendance section css */
 .Attendance {
     border-style: solid;
     border-color: aqua;
     border-width: 1em;
     border-radius: 30px;
 }
+
+/* agenda section css */
 .Agenda {
   text-align: center;
 }
 
+/* id/article css */
 #article {
     margin: 0.25in 1mm 0.25in 1mm;
 }
 
+/* a link css */
 a[href$="https://thejournal.com/articles/2015/02/18/beyond-programming-the-power-of-making-games.aspx"] {
   font-style: italic;
 }
 
+/* when hovering the link */
 a:hover {
   background-color: magenta;
 }
 
+/* universal css */
 * {
   font-family: "customFont";
 }
 
+/* certain button css */
 button.submit {
   height: 4rem;
   width: 10ch;
 }
 
+/* when clicking the button change certain aspect */
 button.submit:active {
   text-decoration: underline;
 }
 
+/* change paragraphs */
 img + p {
   margin-top:20px;
   margin-bottom:100px;
@@ -51,10 +63,12 @@ img + p {
   margin-right:1em;
 }
 
+/* video padding */
 section video {
   padding: 1pc 1pc 1pc 1pc; 
 }
 
+/* form padding */
 section > form {
   padding-top: 10pt;
   padding-bottom: 10pt;
@@ -62,25 +76,30 @@ section > form {
   padding-right: 20Q;
 }
 
+/* button css */
 input ~ button {
   max-width: 2000px;
   min-width: 0px;
   display: block;
 }
 
+/* hide this element */
 .hidden {
   display: none;
 }
 
+/* change text color */
 p, label {
   color:gray;
   position: static;
 }
 
+/* position for em */
 em {
   position: sticky;
 }
 
+/* flexbox */
 .box {
     display: flex;
     flex-flow: row wrap;
@@ -89,6 +108,7 @@ em {
     align-items: center;
 }
 
+/* grid aspects */
 .one, .two, .three {
   border-style: solid;
   border-width: 3px;
