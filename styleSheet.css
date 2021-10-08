@@ -1,4 +1,52 @@
+@font-face {
+    font-family: "customFont";
+    src: url("Montserrat-Regular.ttf")
+}
+
 h3 {
     color: #00ff00;
     background-color: hsl(30, 100%, 50%);
+    margin: auto;
+}
+
+.Attendance {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1em;
+    border-radius: 30px;
+}
+.Agenda {
+  text-align: center;
+}
+
+#article {
+    margin: 0.25in 1mm 0.25in 1mm;
+}
+
+a[href$="https://thejournal.com/articles/2015/02/18/beyond-programming-the-power-of-making-games.aspx"] {
+  font-style: italic;
+}
+
+a:hover {
+  background-color: magenta;
+}
+
+* {
+  font-family: "customFont";
+}
+
+button.submit {
+  height: 4rem;
+  width: 10ch;
+}
+
+button.submit:active{
+  text-decoration: underline;
+}
+
+img + p {
+  margin-top:20px;
+  margin-bottom:100px;
+  margin-left:1em;
+  margin-right:1em;
 }
